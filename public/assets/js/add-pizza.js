@@ -51,7 +51,7 @@ const handlePizzaSubmit = event => {
   }
 
   const formData = { pizzaName, createdBy, size, toppings };
-
+// fetch functionality to connect the front end data to the back end for POST request.
   fetch('/api/pizzas', {
     method: 'POST',
     headers: {
